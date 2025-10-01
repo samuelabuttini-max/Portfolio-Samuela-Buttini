@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Base-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--Article-->
+    <title>Samuela Buttini</title>
+    <meta property="og:title" content="Samuela Portfolio" />
+    <meta property="og:description" content="Junior UX/UI Designer" />
+
+    <meta name="robots" content="noindex" />
+    <meta name="robots" content="nofollow" />
+    <link rel="icon" type="image/png" href="./assets/header/logo.svg" />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- INIZIO HEADER -->
+    <div class="header-container">
+      <header class="flex-nav">
+        <img src="./assets/header/logo.svg" alt="Samuela Buttini logo" />
+
+        <!-- Checkbox-->
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="visually-hidden"
+          aria-label="Open menu"
+        />
+
+        <!-- Label che controlla il checkbox (icona hamburger) -->
+        <label class="burger" for="nav-toggle" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Menu -->
+        <ul class="nav-links">
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+            <a href="#contact" class="nav-red"
+              >Contact me
+              <img alt="" aria-hidden="true" src="./assets/header/Vector.svg"
+            /></a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <!-- FINE HEADER -->
+
+    <!-- INIZIO MAIN -->
+    <main>
+      <!-- Inizio sezione hero -->
+      <section class="flex-section hero-section">
+        <div>
+          <h1>Hi, I'm <span>Samuela</span></h1>
+          <h4>Junior UX/UI Designer</h4>
+          <p>“I’m a designer who starts with questions, not answers.”</p>
+          <div class="hero-section-btn">
+            <a href="#projects" class="btn-red btn">View my projects</a>
+            <a href="./cv.html" class="btn-white btn">View my CV</a>
+          </div>
+        </div>
+        <img
+          src="./assets/main/foto-profilo.png"
+          alt="Portrait of Samuela Buttini"
+          class="img-profilo"
+        />
+      </section>
+      <!-- Fine sezione hero -->
+
+      <!-- Inizio sezione chi sono -->
+      <section class="flex-section chisono-section" id="aboutme">
+        <img
+          src="./assets/main/scrivania.png"
+          alt="Illustration of Samuela's workspace"
+          class="img-scrivania"
+        />
+        <img
+          src="./assets/main/scrivania-mobile.png"
+          alt="Illustration of Samuela's workspace"
+          class="img-scrivania-mobile"
+        />
+        <div>
+          <h3>Who I am</h3>
+          <p>
+            I’m Samuela, a curious and enterprising UX/UI designer
+            <b>based in Milan</b>, who loves exploring ideas, people, and
+            possibilities. I’m ambitious and eager to grow, always ready to
+            challenge myself to improve. <br />
+            <b
+              >I know I’ll feel truly fulfilled when I end the day knowing my
+              work made a difference.</b
+            >
+            <br />
+            I believe the best design is born from the union of creativity,
+            empathy, and discipline.
+          </p>
+          <a
+            href="https://www.linkedin.com/in/samuela-buttini-24411a353/"
+            class="btn-black btn"
+          >
+            <img
+              src="./assets/main/linkedin.svg"
+              alt="LinkedIn profile of Samuela Buttini"
+            />Let's Connect</a
+          >
+        </div>
+      </section>
+      <!-- Fine sezione chi sono -->
+
+      <!-- Inizio sezione skills -->
+      <section class="skills-section">
+        <h2>Skills</h2>
+
+        <div class="flex-section">
+          <!-- UX Research -->
+          <div>
+            <img
+              src="./assets/skills/UX1.png"
+              alt=""
+              aria-hidden="true"
+              class="img-skills"
+            />
+            <h4>UX Research</h4>
+            <p>Surveys, Personas, Journeys, User testing</p>
+          </div>
+          <!-- UI Design -->
+          <div>
+            <img
+              src="./assets/skills/UX2.png"
+              alt=""
+              aria-hidden="true"
+              class="img-skills"
+            />
+            <h4>UI Design</h4>
+            <p>Visual & Branding, Design systems</p>
+          </div>
+
+          <!-- Prototyping -->
+          <div>
+            <img
+              src="./assets/skills/UX3.png"
+              alt=""
+              aria-hidden="true"
+              class="img-skills"
+            />
+            <h4>Prototyping</h4>
+            <p>Wireframes, Hi-fi prototypes, Figma & Miro</p>
+          </div>
+          <!-- Extras -->
+          <div>
+            <img
+              src="./assets/skills/UX4.png"
+              alt=""
+              aria-hidden="true"
+              class="img-skills"
+            />
+            <h4>Extras</h4>
+            <p>HTML/CSS basics, Microcopy, Graphic design</p>
+          </div>
+        </div>
+      </section>
+      <!-- Fine sezione skills -->
+
+      <!-- Inizio sezione projects -->
+      <section class="projects-section" id="projects">
+        <h2>Projects</h2>
+        <!-- Project 1 -->
+        <div class="flex-section project-one">
+          <div>
+            <h1 class="heading-number">01.</h1>
+            <h3>Ecodream - Website Redesign</h3>
+            <p>
+              Complete redesign of EcoDream’s website, from heuristic analysis
+              to UI prototyping. The project included user research, personas,
+              accessibility and a full visual refresh.
+            </p>
+            <a
+              href="./assets/pdf/Presentazione-Ecodream.pdf"
+              class="btn-black btn"
+              >View case study</a
+            >
+          </div>
+          <div>
+            <img
+              src="./assets/projects/caso1.png"
+              alt="Mockup of the redesigned EcoDream website"
+            />
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="flex-section project-two">
+          <div>
+            <h1 class="heading-number">02.</h1>
+            <h3>Pimu Studio Design - Website & Branding</h3>
+            <p>
+              Co-founded a creative studio and led the design of its brand
+              identity and website. Defined the visual language and digital
+              structure, focusing on clarity, usability and consistency.
+            </p>
+            <a href="./assets/pdf/Presentazione-Pimu.pdf" class="btn-black btn"
+              >View case study</a
+            >
+          </div>
+          <div>
+            <img
+              src="./assets/projects/caso2.png"
+              alt="Mockup of the Pimu Studio Design website and branding"
+            />
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="flex-section project-three">
+          <div>
+            <h1 class="heading-number">03.</h1>
+            <h3>DesignFlow Contest 2025 - Mobile App</h3>
+            <p>
+              A 4-day challenge to design a mobile app concept that met the
+              brief’s goals. Delivered high-fidelity wireframes, ensuring
+              seamless usability and clear solutions under tight deadlines.
+            </p>
+            <a
+              href="./assets/pdf/Presentazione-Hexabot.pdf"
+              class="btn-black btn"
+              >View case study</a
+            >
+          </div>
+          <div>
+            <img
+              src="./assets/projects/caso3.png"
+              alt="Mockup of the DesignFlow mobile app concept"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Fine sezione projects -->
+
+      <!-- Inizio sezione contatti -->
+      <section class="flex-section contacts-section" id="contact">
+        <div>
+          <h3>Let’s work together.</h3>
+          <p>
+            I’m open to new opportunities, collaborations, or just a friendly
+            chat. If you have a project in mind or want to know more about my
+            work, feel free to reach out.
+          </p>
+          <div class="social-section">
+            <a href="https://www.linkedin.com/in/samuela-buttini-24411a353/"
+              ><img
+                src="./assets/footer/linkedin.svg"
+                alt="LinkedIn profile of Samuela Buttini"
+            /></a>
+            <a href="https://www.instagram.com/pimu.studiodesign/"
+              ><img
+                src="./assets/footer/instagram.svg"
+                alt="Instagram profile of Pimu Studio Design"
+            /></a>
+            <a href="https://www.behance.net/samuelabuttini1"
+              ><img
+                src="./assets/footer/behance.svg"
+                alt="Behance portfolio of Samuela Buttini"
+            /></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Contact me</h4>
+          <form
+            id="contact-form"
+            action="mailto:samuela@gmail.com"
+            method="post"
+            novalidate
+          >
+            <!-- Name -->
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Samuela Buttini"
+                autocomplete="name"
+                required
+              />
+            </div>
+
+            <!-- Email -->
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="samuelabuttini0311@gmail.com"
+                autocomplete="email"
+                inputmode="email"
+                required
+              />
+            </div>
+
+            <!-- Message -->
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Message..."
+                rows="6"
+                minlength="5"
+                required
+              ></textarea>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn-red btn">Send message</button>
+          </form>
+        </div>
+      </section>
+      <!-- Fine sezione contatti -->
+    </main>
+    <!-- FINE MAIN -->
+
+    <!-- INIZIO FOOTER -->
+    <footer>
+      <img src="./assets/header/logo.svg" alt="" aria-hidden="true" />
+      <h5>Designed & coded by Samuela ✦ 2025</h5>
+      <h6>All rights reserved to Samuela Buttini</h6>
+    </footer>
+    <!-- FINE FOOTER -->
+
+    <!-- INIZIO SCRIPT -->
+    <script src="./script.js"></script>
+    <!-- FINE SCRIPT -->
+  </body>
+</html>
